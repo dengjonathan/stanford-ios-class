@@ -30,7 +30,7 @@ class FaceViewController: UIViewController {
     
 
     // did set not called on intialization
-    var expression: FacialExpression = FacialExpression(eyes: .closed, mouth: .frown
+    var expression: FacialExpression = FacialExpression(eyes: .open, mouth: .neutral
         ) {
         didSet {
             updateUI()
