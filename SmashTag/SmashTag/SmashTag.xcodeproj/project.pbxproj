@@ -7,104 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F7A6F8B1F2D4A8000B16C21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A6F8A1F2D4A8000B16C21 /* AppDelegate.swift */; };
-		1F7A6F8D1F2D4A8000B16C21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A6F8C1F2D4A8000B16C21 /* ViewController.swift */; };
-		1F7A6F901F2D4A8000B16C21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A6F8E1F2D4A8000B16C21 /* Main.storyboard */; };
-		1F7A6F921F2D4A8000B16C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A6F911F2D4A8000B16C21 /* Assets.xcassets */; };
-		1F7A6F951F2D4A8000B16C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A6F931F2D4A8000B16C21 /* LaunchScreen.storyboard */; };
-		1F7A6F9D1F2D4AF600B16C21 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A6F9C1F2D4AF600B16C21 /* ImageViewController.swift */; };
+		1F30C9B91F66F10E00DCB2F6 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F30C9B81F66F10E00DCB2F6 /* Twitter.framework */; };
+		1F30C9BA1F66F10E00DCB2F6 /* Twitter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1F30C9B81F66F10E00DCB2F6 /* Twitter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1FEAA1D11F65F0A0008CBFAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA1D01F65F0A0008CBFAE /* AppDelegate.swift */; };
+		1FEAA1D31F65F0A0008CBFAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA1D21F65F0A0008CBFAE /* ViewController.swift */; };
+		1FEAA1D61F65F0A0008CBFAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEAA1D41F65F0A0008CBFAE /* Main.storyboard */; };
+		1FEAA1D81F65F0A0008CBFAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEAA1D71F65F0A0008CBFAE /* Assets.xcassets */; };
+		1FEAA1DB1F65F0A0008CBFAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEAA1D91F65F0A0008CBFAE /* LaunchScreen.storyboard */; };
+		1FEAA1E31F65F0FB008CBFAE /* TweetTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEAA1E21F65F0FB008CBFAE /* TweetTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1F30C9B11F66F05300DCB2F6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1F30C9BA1F66F10E00DCB2F6 /* Twitter.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		1F7A6F871F2D4A8000B16C21 /* Cassini.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cassini.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F7A6F8A1F2D4A8000B16C21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F7A6F8C1F2D4A8000B16C21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F7A6F8F1F2D4A8000B16C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1F7A6F911F2D4A8000B16C21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F7A6F941F2D4A8000B16C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1F7A6F961F2D4A8000B16C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F7A6F9C1F2D4AF600B16C21 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1F30C9B81F66F10E00DCB2F6 /* Twitter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Twitter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEAA1CD1F65F0A0008CBFAE /* SmashTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmashTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FEAA1D01F65F0A0008CBFAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FEAA1D21F65F0A0008CBFAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FEAA1D51F65F0A0008CBFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FEAA1D71F65F0A0008CBFAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FEAA1DA1F65F0A0008CBFAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FEAA1DC1F65F0A0008CBFAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEAA1E21F65F0FB008CBFAE /* TweetTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F7A6F841F2D4A8000B16C21 /* Frameworks */ = {
+		1FEAA1CA1F65F0A0008CBFAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F30C9B91F66F10E00DCB2F6 /* Twitter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F7A6F7E1F2D4A8000B16C21 = {
+		1FEAA1C41F65F0A0008CBFAE = {
 			isa = PBXGroup;
 			children = (
-				1F7A6F891F2D4A8000B16C21 /* Cassini */,
-				1F7A6F881F2D4A8000B16C21 /* Products */,
+				1F30C9B81F66F10E00DCB2F6 /* Twitter.framework */,
+				1FEAA1CF1F65F0A0008CBFAE /* SmashTag */,
+				1FEAA1CE1F65F0A0008CBFAE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1F7A6F881F2D4A8000B16C21 /* Products */ = {
+		1FEAA1CE1F65F0A0008CBFAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F7A6F871F2D4A8000B16C21 /* Cassini.app */,
+				1FEAA1CD1F65F0A0008CBFAE /* SmashTag.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F7A6F891F2D4A8000B16C21 /* Cassini */ = {
+		1FEAA1CF1F65F0A0008CBFAE /* SmashTag */ = {
 			isa = PBXGroup;
 			children = (
-				1F7A6F8A1F2D4A8000B16C21 /* AppDelegate.swift */,
-				1F7A6F8C1F2D4A8000B16C21 /* ViewController.swift */,
-				1F7A6F9C1F2D4AF600B16C21 /* ImageViewController.swift */,
-				1F7A6F8E1F2D4A8000B16C21 /* Main.storyboard */,
-				1F7A6F911F2D4A8000B16C21 /* Assets.xcassets */,
-				1F7A6F931F2D4A8000B16C21 /* LaunchScreen.storyboard */,
-				1F7A6F961F2D4A8000B16C21 /* Info.plist */,
+				1FEAA1D01F65F0A0008CBFAE /* AppDelegate.swift */,
+				1FEAA1D21F65F0A0008CBFAE /* ViewController.swift */,
+				1FEAA1D41F65F0A0008CBFAE /* Main.storyboard */,
+				1FEAA1E21F65F0FB008CBFAE /* TweetTableTableViewController.swift */,
+				1FEAA1D71F65F0A0008CBFAE /* Assets.xcassets */,
+				1FEAA1D91F65F0A0008CBFAE /* LaunchScreen.storyboard */,
+				1FEAA1DC1F65F0A0008CBFAE /* Info.plist */,
 			);
-			path = Cassini;
+			path = SmashTag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F7A6F861F2D4A8000B16C21 /* Cassini */ = {
+		1FEAA1CC1F65F0A0008CBFAE /* SmashTag */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F7A6F991F2D4A8000B16C21 /* Build configuration list for PBXNativeTarget "Cassini" */;
+			buildConfigurationList = 1FEAA1DF1F65F0A0008CBFAE /* Build configuration list for PBXNativeTarget "SmashTag" */;
 			buildPhases = (
-				1F7A6F831F2D4A8000B16C21 /* Sources */,
-				1F7A6F841F2D4A8000B16C21 /* Frameworks */,
-				1F7A6F851F2D4A8000B16C21 /* Resources */,
+				1FEAA1C91F65F0A0008CBFAE /* Sources */,
+				1FEAA1CA1F65F0A0008CBFAE /* Frameworks */,
+				1FEAA1CB1F65F0A0008CBFAE /* Resources */,
+				1F30C9B11F66F05300DCB2F6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Cassini;
-			productName = Cassini;
-			productReference = 1F7A6F871F2D4A8000B16C21 /* Cassini.app */;
+			name = SmashTag;
+			productName = SmashTag;
+			productReference = 1FEAA1CD1F65F0A0008CBFAE /* SmashTag.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1F7A6F7F1F2D4A8000B16C21 /* Project object */ = {
+		1FEAA1C51F65F0A0008CBFAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Jonathan Deng";
 				TargetAttributes = {
-					1F7A6F861F2D4A8000B16C21 = {
+					1FEAA1CC1F65F0A0008CBFAE = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = L3G9FY2DZF;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 1F7A6F821F2D4A8000B16C21 /* Build configuration list for PBXProject "Cassini" */;
+			buildConfigurationList = 1FEAA1C81F65F0A0008CBFAE /* Build configuration list for PBXProject "SmashTag" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,55 +132,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 1F7A6F7E1F2D4A8000B16C21;
-			productRefGroup = 1F7A6F881F2D4A8000B16C21 /* Products */;
+			mainGroup = 1FEAA1C41F65F0A0008CBFAE;
+			productRefGroup = 1FEAA1CE1F65F0A0008CBFAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F7A6F861F2D4A8000B16C21 /* Cassini */,
+				1FEAA1CC1F65F0A0008CBFAE /* SmashTag */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F7A6F851F2D4A8000B16C21 /* Resources */ = {
+		1FEAA1CB1F65F0A0008CBFAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7A6F951F2D4A8000B16C21 /* LaunchScreen.storyboard in Resources */,
-				1F7A6F921F2D4A8000B16C21 /* Assets.xcassets in Resources */,
-				1F7A6F901F2D4A8000B16C21 /* Main.storyboard in Resources */,
+				1FEAA1DB1F65F0A0008CBFAE /* LaunchScreen.storyboard in Resources */,
+				1FEAA1D81F65F0A0008CBFAE /* Assets.xcassets in Resources */,
+				1FEAA1D61F65F0A0008CBFAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F7A6F831F2D4A8000B16C21 /* Sources */ = {
+		1FEAA1C91F65F0A0008CBFAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F7A6F8D1F2D4A8000B16C21 /* ViewController.swift in Sources */,
-				1F7A6F9D1F2D4AF600B16C21 /* ImageViewController.swift in Sources */,
-				1F7A6F8B1F2D4A8000B16C21 /* AppDelegate.swift in Sources */,
+				1FEAA1E31F65F0FB008CBFAE /* TweetTableTableViewController.swift in Sources */,
+				1FEAA1D31F65F0A0008CBFAE /* ViewController.swift in Sources */,
+				1FEAA1D11F65F0A0008CBFAE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F7A6F8E1F2D4A8000B16C21 /* Main.storyboard */ = {
+		1FEAA1D41F65F0A0008CBFAE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F7A6F8F1F2D4A8000B16C21 /* Base */,
+				1FEAA1D51F65F0A0008CBFAE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1F7A6F931F2D4A8000B16C21 /* LaunchScreen.storyboard */ = {
+		1FEAA1D91F65F0A0008CBFAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F7A6F941F2D4A8000B16C21 /* Base */,
+				1FEAA1DA1F65F0A0008CBFAE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,7 +188,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1F7A6F971F2D4A8000B16C21 /* Debug */ = {
+		1FEAA1DD1F65F0A0008CBFAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +239,7 @@
 			};
 			name = Debug;
 		};
-		1F7A6F981F2D4A8000B16C21 /* Release */ = {
+		1FEAA1DE1F65F0A0008CBFAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,27 +283,29 @@
 			};
 			name = Release;
 		};
-		1F7A6F9A1F2D4A8000B16C21 /* Debug */ = {
+		1FEAA1E01F65F0A0008CBFAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L3G9FY2DZF;
-				INFOPLIST_FILE = Cassini/Info.plist;
+				INFOPLIST_FILE = SmashTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.JonathanDeng.Cassini;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.JonathanDeng.SmashTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		1F7A6F9B1F2D4A8000B16C21 /* Release */ = {
+		1FEAA1E11F65F0A0008CBFAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = L3G9FY2DZF;
-				INFOPLIST_FILE = Cassini/Info.plist;
+				INFOPLIST_FILE = SmashTag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.JonathanDeng.Cassini;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.JonathanDeng.SmashTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -292,25 +314,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F7A6F821F2D4A8000B16C21 /* Build configuration list for PBXProject "Cassini" */ = {
+		1FEAA1C81F65F0A0008CBFAE /* Build configuration list for PBXProject "SmashTag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F7A6F971F2D4A8000B16C21 /* Debug */,
-				1F7A6F981F2D4A8000B16C21 /* Release */,
+				1FEAA1DD1F65F0A0008CBFAE /* Debug */,
+				1FEAA1DE1F65F0A0008CBFAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F7A6F991F2D4A8000B16C21 /* Build configuration list for PBXNativeTarget "Cassini" */ = {
+		1FEAA1DF1F65F0A0008CBFAE /* Build configuration list for PBXNativeTarget "SmashTag" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F7A6F9A1F2D4A8000B16C21 /* Debug */,
-				1F7A6F9B1F2D4A8000B16C21 /* Release */,
+				1FEAA1E01F65F0A0008CBFAE /* Debug */,
+				1FEAA1E11F65F0A0008CBFAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1F7A6F7F1F2D4A8000B16C21 /* Project object */;
+	rootObject = 1FEAA1C51F65F0A0008CBFAE /* Project object */;
 }
