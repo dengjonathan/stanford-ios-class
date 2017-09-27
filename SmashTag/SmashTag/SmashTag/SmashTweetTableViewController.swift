@@ -1,4 +1,4 @@
-j//
+//
 //  SmashTweet.swift
 //  SmashTag
 //
@@ -23,7 +23,7 @@ class SmashTweetTableViewController: TweetTableViewController {
         print("starting database load")
         container?.performBackgroundTask { [weak self] context in
             for twitterInfo in tweets {
-                _ = try? Tweet.findOrCreateTweet(matching: twitterInfo, in: context)
+                _ = try? Twitter.Tweet.findOrCreateTweet(matching: twitterInfo, in: context)
             }
             try? context.save()
             print("done loading database")
@@ -40,11 +40,11 @@ class SmashTweetTableViewController: TweetTableViewController {
                     print("off main thread")
                 }
                 // bad way to count
-                if let tweetCount = (try? context.fetch(Tweet.fetchRequest()))?.count {
+                if let tweetCount = (try? context.fetch(Twitter.Tweet.fetchRequest()))?.count {
                     print("\(tweetCount) tweets")
                 }
                 // good way to count
-                if let tweeterCount = try? context.count(for: TwitterUser.fetchRequest()) {
+                if let tweeterCount = try? context.count(for: Twitter.TwitterUser.fetchRequest()) {
                     print("\(tweeterCount) Twitter users")
                 }
             }
